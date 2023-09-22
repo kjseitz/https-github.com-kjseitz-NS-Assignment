@@ -1,0 +1,14 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo">
+    <ActionBar title="My App" icon="" />
+        <Label text="Welcome!" class="text-3xl text-center" text-center" />
+        <StackLayout>
+            <Label text="Welcome!" class="text-left" />
+       <DatePicker
+  year="1980"
+  month="4"
+  day="20"
+  loaded="onDatePickerLoaded"
+  date="{{ date }}"
+/>
+        </StackLayout>
+</Page>
